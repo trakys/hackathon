@@ -1,0 +1,291 @@
+/*This is everything in the main webpage*/
+body {
+	height: 2000px;
+}
+
+/*This is everything in the header*/
+
+ul {
+	list-style-type: none;
+    background-color: #ADD8E6;
+	height: 120px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	transform:translate(0px, 0px);
+}
+
+li {
+	list-style-type:none;
+	float: right;
+	display: inline;
+}
+
+li a {
+	color: #ADD8E6;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#logoImage {
+	height: 110px;
+	width: 110px;
+	transform:translate(40px, 0px);
+	float: left;
+}
+   
+#logIn {
+    float: right;
+    transform:translate(-30px, 15px); 
+	padding: 5px 32px;
+	text-align: center;
+	width: 150px;
+	height: 75px;
+	font-size: 20px;
+	font-family: "Oswald";
+	background-color: #e6f2ff;
+	border: none;
+	cursor: pointer;
+}
+
+#course {
+	float: right;
+    transform:translate(-70px, 15px); 
+	padding: 5px 32px;
+	text-align: center;
+	width: 175px;
+	height: 75px;
+	font-size: 40px;
+	font-family: "Oswald";
+	color: white;
+	background-color: #ADD8E6;
+	border: none;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.5;
+}
+
+/*This is a colour block*/
+
+#colour_block {
+	background-color: #001a33;
+	height: 700px;
+}
+
+.info {
+	font-family: "Oswald";
+	font-size: 70px;
+	color: white;
+	width: 1000px;
+	text-align:center;
+	transform:translate(180px, 140px);
+	position: absolute;
+}
+
+.info2 {
+	font-family: "Oswald";
+	font-size: 20px;
+	color: white;
+	width: 1000px;
+	text-align:center;
+	transform:translate(175px, 500px);
+	position: absolute;
+}
+
+.why_us {
+	font-family: "Oswald";
+	font-size: 70px;
+	color: white;
+	width: 1000px;
+	text-align:left;
+	transform:translate(60px, 60px);
+	position: absolute;
+}
+
+.info3 {
+	font-family: "Oswald";
+	font-size: 20px;
+	color: white;
+	width: 600px;
+	text-align:left;
+	transform:translate(60px, 200px);
+	position: absolute;
+}
+
+.contact {
+	font-family: "Oswald";
+	font-size: 70px;
+	color: white;
+	width: 600px;
+	text-align:left;
+	transform:translate(100px, 60px);
+	position: absolute;
+}
+
+.contact_info {
+	font-family: "Oswald";
+	font-size: 15x;
+	color: white;
+	width: 600px;
+	text-align:left;
+	transform:translate(700px, 10px);
+	position: absolute;
+}
+
+#colour_block2 {
+	background-color: #b3d9ff;
+	height: 450px;
+}
+
+#question {
+	height: 300px;
+	transform:translate(850px, 750px);
+}
+
+#colour_block3 {
+	background-color: #001a33;
+	height: 300px;
+	padding-bottom: 0px;
+	margin: 0px;
+	transform:translate(0px, 100px);
+}
+
+/*This is everything in the sign-up form*/
+* {box-sizing: border-box}
+
+h1 {
+	font-family="Oswald";
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 3px 0 15px 0;
+	display: inline-block;
+	border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.registerbtn {
+	background-color: lightblue;
+	color: black;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.registerbtn:hover {
+	opacity:1;
+}
+
+a {
+	color: dodgerblue;
+}
+		
+.padding-0{
+	padding-right:0;
+	padding-left:50px;
+}
+
+.container-fluid {
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+
+
+/*This is everything for the slideshow*/ 
+
+#slideshow {
+	padding-right: 50px;
+	padding-left: 20px;
+}
+
+* {box-sizing:border-box}
+            
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	transform:translate(40px, 0px);
+	height: 500px;
+	width: 400px;
+}
+
+.mySlides {
+	display: none;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+     top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+	transform:translate(0px, 0px);
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+#picture1 {
+	height: 500px;
+	width: 300px;
+}
+
+#picture2 {
+	height: 500px;
+	width: 300px;
+}
